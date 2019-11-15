@@ -11,8 +11,8 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 plugin= {"pretty", "html:target/cucumber-reports"},
 strict=true,
-features = "src/test/java/Feature/Google.feature",
-tags= {"@Test2"},
+features = "src/test/java/Feature/Googlesearch.feature",
+tags= {"@Test3"},
 glue= {"seleniumartifact"},
 monochrome=true,
 dryRun=false
